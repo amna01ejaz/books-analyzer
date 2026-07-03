@@ -1,0 +1,12 @@
+---
+
+### Step 3: Create a Clean `.gitignore`
+To make sure local system environment folders or background python caching files stay out of your public GitHub code, create a file named exactly **`.gitignore`** in the same folder and add this code:
+
+```text
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.streamlit/config.toml
+.DS_Store
